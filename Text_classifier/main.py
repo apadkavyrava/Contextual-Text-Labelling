@@ -5,7 +5,7 @@ Enter a word or consposite noun and get parsing of meaning
 
 import joblib
 
-CONFIDENCE_THRESHOLD = 0.8  # Adjust this value as needed (0.0 to 1.0)
+CONFIDENCE_THRESHOLD = 0.7  # Adjust this value as needed (0.0 to 1.0)
 
 
 def load_model(model_path="model.joblib"):
